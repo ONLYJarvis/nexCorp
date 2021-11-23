@@ -1,0 +1,25 @@
+#productList{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh;
+    width: 100%;
+    height: 100vh;
+    gap: 30vh 3vw ;
+}
+
+.product{
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1%;
+}
+
+.product .productImage{
+    object-fit: contain;
+    width: 100%;
+    height: 40vh;
+}
+
